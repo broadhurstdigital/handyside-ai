@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.handyside.ai/sitemap.xml
+
+# Block common security scanners
+User-agent: Applebot
+User-agent: facebookexternalhit
+User-agent: Twitterbot
+Allow: /
+
+# Security
+User-agent: *
+Disallow: /.git/
+Disallow: /_headers
+Disallow: /CNAME
